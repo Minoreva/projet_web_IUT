@@ -133,9 +133,9 @@ footer ul li{
 }
 */
 .button_prom{
-  position: absolute;
-  top: 49%;
-  left: 30%;
+  position: relative;
+  bottom: 450px;
+  left:10%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   border: none;
@@ -145,7 +145,7 @@ footer ul li{
   font-size: 46px;
   text-shadow: 2px 2px black;
 }
-/*
+/*ancienne méthode, puis W3C
 
 .button_prom {
   border: none;
@@ -161,9 +161,9 @@ footer ul li{
 
 .promotitre{
   font-size: 46px;
-  position: absolute;
-  top: 30%;
-  left: 27%;
+  position: relative;
+  bottom: 650px;
+  left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-shadow: 2px 2px black;
