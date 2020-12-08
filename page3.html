@@ -16,9 +16,17 @@
   </nav>
  </header>
 <body>
+
 	<section class="mainpage">
+	<h3>
+		<span>
+		RSI PERSEUS
+		</span>
+	</h3>
+	
 		<section class="details">
 		<img src="https://media.robertsspaceindustries.com/6sfr36x24j0hw/channel_item_full.jpg">
+
 		<p>
 		Quand RSI décide de s'imposer dans l'ère moderne, elle le fait avec avec des arguments percutants,
 		ils ont retracé leur histoire, jusqu'au temps historique où a été dessiné le navire de guerre Perseus.
@@ -28,21 +36,25 @@
 		</p>
 		
 		<a href="#" class="button">Acheter</a>
-		
-
-		  <ul>
-			   <li>Avioniques :</li>  
+		<input type="checkbox" id="my_checkbox" style="display:none;">
+		<section class="hidden">
 			   <ul>
 					<li>Radar : Taille M ; Quantité : 1</li>
 					<li>Ordinateurs : Taille M ; Quantité : 2</li>
 			   </ul>
-			   <li>Systèmes :</li>  
+		</section>
+		<label for="my_checkbox" class="button_collaps" >Avioniques</label>
+		<input type="checkbox" id="my_checkbox2" style="display:none;">
+		<section class="hidden">  
 			   <ul>
 					<li>Générateur : Taille L ; Quantité : 2</li>
 					<li>Refroidisseur : Taille L ; Quantité 2</li>
 					<li>Générateur de bouclier : Taille L ; Quantité 2</li>
 			   </ul>			   
-			   <li>Propulsion :</li>
+		</section>
+		<label for="my_checkbox2" class="button_collaps" >Systèmes</label>
+		<input type="checkbox" id="my_checkbox3" style="display:none;">
+		<section class="hidden">
 			   <ul>
 					<li>Réservoir d'hydrogen : Taille L ; Quantité : 2</li>
 					<li>Réservoir de Carburant Quantum : Taille L ; Quantité : 1</li>
@@ -53,13 +65,19 @@
 					<li>Manoeuvre : 12x1</li>
 					</ul>
 			   </ul>			   
-			   <li>Armement</li>
+		</section>
+		<label for="my_checkbox3" class="button_collaps" >Propulsion</label>
+		<input type="checkbox" id="my_checkbox4" style="display:none;">
+		<section class="hidden">
 			   <ul>
 					<li>Tourelle Canon (Contrôle Manuel): Taille 7 ; Quantité 2x2</li>
 					<li>Gatling Balistique Gallenson: Taille 3 ; Quantité 2x2</li>
 					<li>Torpilles : Taille 5 ; Quantité : 10x2</li>
-			   </ul>			   
-		  </ul>		
+			   </ul>	
+		</section>
+		<label for="my_checkbox4" class="button_collaps" >Armement</label>	 
+		   
+
 <!--Rajouter des curseurs ?*/-->		
 		</section>
 	</section>
