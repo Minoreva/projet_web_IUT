@@ -72,3 +72,26 @@ footer ul li{
 }
 
 
+.login{
+  position:absolute;
+  top:0;
+  right:0;
+  overflow:auto;
+}
+
+.login a{
+	clear:left;
+	color:rgb(60,232,254);
+	padding:8px 0px 8px 4px;
+	float:left;
+	width:100px;
+	border:solid;
+	border-color:rgb(1,116,129);
+	display:block;
+	outline:0;
+	background:rgba(19,34,49,0.6);
+}
+
+.login a+a{
+	border-top:none;
+}
