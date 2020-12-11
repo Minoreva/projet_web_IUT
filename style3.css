@@ -1,0 +1,101 @@
+body{
+margin:auto;
+max-width:1160px;
+background-image:url(background/vaisso2.jpg),url(background/bg-stars-2560.jpg);
+color:#00A9BF;
+text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
+background-repeat: no-repeat,repeat;
+background-size: cover;
+}
+
+h2{
+	text-align:center;
+}
+
+header ul{
+	display:block;
+	text-align:center;
+}
+
+header ul li{
+	padding : 0.1em 1em 0 0;
+	display:inline-block;
+	font-size:2rem;
+	
+}
+
+
+h1{
+	color:rgb(60,232,254);
+	padding-left:25px;
+}
+h1:after{
+	content:" /";
+}
+
+a{
+	color:orange;
+}
+
+footer{
+	clear:left;
+	padding: 5px 0.5 em 7px;
+
+}
+
+footer a{
+	color:orange;
+	text-decoration:none;
+}
+
+footer ul{
+	display:block;
+	text-align:center;
+}
+
+footer ul li{
+	font-size:1.2rem;
+	padding : 0.1em 1em 0 0;
+	display:inline-block;	
+}
+
+
+.mainpage{
+	float:left;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-color: rgb(122,246,251);
+	border-width: medium;
+	background-color: rgba(19,34,49,0.8);
+	min-width:1200px;
+}
+
+
+.login{
+	display:flex;
+	justify-content:flex-end;
+	position:absolute;
+	top:0;
+	right:0;
+	clear:left;
+}
+
+
+.login a{
+	clear:left;
+	color:rgb(60,232,254);
+	padding:8px 0px 8px 4px;
+	float:left;
+	width:100px;
+	border:solid;
+	border-color:rgb(1,116,129);
+	display:block;
+	outline:0;
+	background:rgba(19,34,49,0.6);
+}
+
+/*
+.login a+a{
+	border-top:none;
+}*/
