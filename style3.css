@@ -73,14 +73,11 @@ footer ul li{
 
 
 .login{
-	display:flex;
-	justify-content:flex-end;
-	position:absolute;
-	top:0;
-	right:0;
-	clear:left;
+  position:absolute;
+  top:0;
+  right:0;
+  overflow:auto;
 }
-
 
 .login a{
 	clear:left;
@@ -95,7 +92,6 @@ footer ul li{
 	background:rgba(19,34,49,0.6);
 }
 
-/*
 .login a+a{
 	border-top:none;
-}*/
+}
