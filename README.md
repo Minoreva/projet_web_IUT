@@ -1,1 +1,1 @@
-C'est un lisez-moi! incroyablement vide.
+Projet web réalisé dans le cadre du cours de WEB de l'IUT Lyon 1.
