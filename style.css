@@ -102,29 +102,6 @@ footer ul li{
 	display:inline-block;	
 }
 
-
-
-/* QUESTION DU MARGIN AUTO ? -- POURQUOI CA SE MET PAS AU MILIEU DE LA PAGE*/
-
-/* 	background: linear-gradient(90deg,
-	rgba(102,102,141,0.6),
-	rgba(102,102,141,1),
-	rgba(102,102,141,0.6)
-	);
-	
-	  	background: linear-gradient(90deg,
-	rgba(0,57,129,0.6),
-	rgba(0,57,129,0.2),
-	rgba(0,57,129,0.6)
-	);
-	border: 5px solid;
-  border-image: radial-gradient(rgb(81,81,194),rgb(15,15,152))1;
-	
-*/
-
-
-/*ON FAIT LA MAIN PAGE ICI */
-
 .mainpage{
 	float:left;
 	border-top-style: solid;
@@ -152,7 +129,7 @@ footer ul li{
   bottom: 450px;
   left:10%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  /*-ms-transform: translate(-50%, -50%); utilité ?*/
   border: none;
   color: white;
   text-align: center;
@@ -180,7 +157,7 @@ footer ul li{
   bottom: 650px;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  /*-ms-transform: translate(-50%, -50%); utilité ?*/
   text-shadow: 2px 2px black;
 }
 
@@ -219,11 +196,22 @@ form label input{
 
 
 .login{
+	display:flex;
+	justify-content:flex-end;
+	position:absolute;
+	top:0;
+	right:0;
+	clear:left;
+}
+
+/*
+.login{
   position:absolute;
   top:0;
-  right:0;
+  right:0;  
   overflow:auto;
 }
+*/
 
 .login a{
 	clear:left;
@@ -237,7 +225,7 @@ form label input{
 	outline:0;
 	background:rgba(19,34,49,0.6);
 }
-
+/* pour corriger la première méthode
 .login a+a{
 	border-top:none;
-}
+}*/
