@@ -61,6 +61,16 @@ footer ul li{
 	border-width: medium;
 }
 
+.mainpage a{
+	text-decoration:none;
+}
+
+.mainpage a:after{
+	padding-left:20px;
+	content:'€980.00 EUR'
+	/*probablement pas efficace si on devait faire +ieurs pages*/
+}
+
 .details{
 	float:left;
 	width: 100%;
@@ -229,3 +239,23 @@ h3 span{
 .login a+a{
 	border-top:none;
 }*/
+
+.logo{
+	position:fixed;
+	top:-5%;
+	left:-2%;
+	-ms-transform: scale(0.5); /* IE 9 */
+	-webkit-transform: scale(0.5); /* Safari 3-8 */
+	transform: scale(0.5); 
+}
+
+@media screen and (max-width:1420px){
+	.logo{
+	position:absolute;
+	top:0;
+	-ms-transform: scale(0.2); /* IE 9 */
+	-webkit-transform: scale(0.2); /* Safari 3-8 */
+	transform: scale(0.2);
+
+	}
+}

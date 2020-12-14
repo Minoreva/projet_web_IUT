@@ -41,7 +41,6 @@ h2{
 }
 
 .box{
-  
   float:left;
   width: 520px;
   height:350px;
@@ -213,6 +212,10 @@ form label input{
 }
 */
 
+strike{
+	margin-right:5px;
+}
+
 .login a{
 	clear:left;
 	color:rgb(60,232,254);
@@ -229,3 +232,24 @@ form label input{
 .login a+a{
 	border-top:none;
 }*/
+
+
+.logo{
+	position:fixed;
+	top:-5%;
+	left:-2%;
+	-ms-transform: scale(0.5); /* IE 9 */
+	-webkit-transform: scale(0.5); /* Safari 3-8 */
+	transform: scale(0.5); 
+}
+
+@media screen and (max-width:1420px){
+	.logo{
+	position:absolute;
+	top:0;
+	-ms-transform: scale(0.2); /* IE 9 */
+	-webkit-transform: scale(0.2); /* Safari 3-8 */
+	transform: scale(0.2);
+
+	}
+}

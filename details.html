@@ -2,7 +2,7 @@
 <html>
     <head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="style3.css">
+		<link rel="stylesheet" type="text/css" href="details_style.css">
 		<title>Détails Techniques</title>
 	</head>
 	<body>
@@ -10,24 +10,51 @@
 			<h1>Détails Techniques</h1>
 			<nav>
 				<ul>
-				<li><a href="page1.html">Accueil</a></li>  
+				<li><a href="accueil.html">Accueil</a></li>  
 				</ul>
 			</nav>
 			<div class="login" style="width:10%">
 				<a href="#">Se connecter</a> 
 				<a href="#">S'inscrire</a>
 			</div>
+		  <div class="logo">
+				<a href="accueil.html"><img src="background/logo.png"></a>
+		  </div>			
 		</header>
 
 		<section class="mainpage">
 			<section class="mot_du_jour">
-				<h2> Détails</h2>
-				<p>	Vraiment j'ai juste utilisé notepad++ en fait. Et le site du W3C.</p>
-				<ul>
-					<li>Notepad++</li>
-					<li>Site du W3C</li>
-					<li>Quelques forums type Stack Overflow</li>
-				</ul>
+				<h2> Détails Techniques </h2>
+
+				<section>
+				<h3>Base générale (SI TEMPS : A refaire après avoir structuré le main + clarifié les id et class qd besoin)</h3>
+				<p>L'idée est d'avoir un cadre avec un fond transparent ou opaque sur toutes les pages. 
+				On considère cela le "mainpage" comme étant le corps où tous les éléments seront déposés.
+				Cela implique beaucoup de float, et après avoir appris son existence, un peu de flex.
+				L'agencement global se fait surtout par "classes" qui sont là pour faire référencer à des
+				ensembles non-uniques</p>
+				<p>Le logo situé en haut à gauche est là pour ramener toujours à l'accueil</p>
+				</section>
+				
+				<section>
+				<h3>Page accueil</h3>
+				<p>La page accueil rassemble le corps du site, présente la promotion en cours (en l'occurence, un vaisseau en édition limitée et à un prix minim !)</p>
+				</section>
+				
+				<section>
+				<h3>Catalogue</h3>
+				<p>Le catalogue consiste en une série de boites de class "ship" qui permettent chacune d'intégrer les quelques détails majeurs avant de rediriger vers les fiches détaillées de chaque produit. Pour l'instant, seul le PERSEUS est disponible.</p>
+				</section>
+				
+				<section>
+				<h3>Panier (Vide et Plein)</h3>
+				<p>Le panier est là avec un fond différent pour marquer un changement de ton dans l'opération (navigation > selection > achat), il est constitué d'une "mainpage" qui se comble en ajoutant a chaque fois la classe "achat" qui met en page les détails en ligne d'un vaisseau sélectionné.</p>
+				</section>
+
+
+
+
+
 			</section>
 		</section>
 		<footer>
