@@ -93,6 +93,8 @@ footer ul li{
 }
 
 .details .button{
+	margin-right:36%;
+	margin-left:36%;
 	display:block;
 	align:center;
 }
