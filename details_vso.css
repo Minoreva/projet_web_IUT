@@ -265,3 +265,26 @@ h3 span{
 
 	}
 }
+
+
+.details p{
+	font-size:1.2rem;
+display:block;
+color:rgb(150,221,247);
+height:70%;
+padding:20px 15px 20px 15px;
+background-color:black;
+opacity:0.6;
+background-image:url('https://robertsspaceindustries.com/rsi/static/images/game/shipspecs/background-full.png');
+background-position:50% 50%;
+background-repeat:no-repeat;
+background-size:cover;
+opacity:0.9;
+filter:grayscale(10%);
+}
+
+.details p:before{
+	content:'Description';
+	display:block;
+	color:grey;
+}
