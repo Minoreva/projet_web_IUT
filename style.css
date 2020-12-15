@@ -252,4 +252,9 @@ strike{
 	transform: scale(0.2);
 
 	}
+	body{
+		max-width:550px;
+	}
+	
+	
 }
