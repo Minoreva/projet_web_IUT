@@ -239,14 +239,18 @@ strike{
 	display:inline-block;
 	width:300px;
 	height:41px;
-	background:url('background/tab.png') no-repeat center top
+	background:url('background/tab.png');
+	background-repeat:no-repeat;
+	background-position:center top;
 }
 	
 .tab_button:hover{
 	width:300px;
 	height:41px;
 	color:white;
-	background:url('background/glow_tab.png') no-repeat center bottom,url('background/tab.png') no-repeat center top
+	background:url('background/glow_tab.png'),url('background/tab.png') ;
+	background-repeat:no-repeat;
+	background-position:center bottom,center top;	
 }
 
 .logo{
@@ -269,8 +273,41 @@ strike{
 
 	}
 	body{
-		max-width:550px;
+		max-width:600px;
 	}
 	
+	/*Calvaire sur la page accueil à scale tout sur petit écran, à améliorer*/
+	.mainpage{
+		max-width:600px;
+	}
+	.promo img{
+	  width: 100%;
+	  height:100%;		
+		
+	}
+	
+	.button_prom{
+	  bottom: 250px;
+	  font-size: 30px;	
+	}
+	
+	.promotitre{
+	  font-size: 30px;
+	  bottom: 325px;		
+	}
+	
+	.tab_button{
+	width:179px;
+	height:25px;
+	background:url('background/tab_small.png') ;		
+	font-size:1rem;
+	}
+	
+	.tab_button:hover{
+	width:179px;
+	height:25px;
+	background:url('background/glow_tab.png_small'),url('background/tab.png_small') ;	
+	}
+
 	
 }

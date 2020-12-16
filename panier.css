@@ -227,4 +227,17 @@ footer ul li{
 	transform: scale(0.2);
 
 	}
+	
+	.tab_button{
+	width:179px;
+	height:25px;
+	background:url('background/tab_small.png') ;		
+	font-size:1rem;
+	}
+	
+	.tab_button:hover{
+	width:179px;
+	height:25px;
+	background:url('background/glow_tab.png_small'),url('background/tab.png_small') ;	
+	}
 }
