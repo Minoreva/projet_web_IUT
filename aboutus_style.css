@@ -149,6 +149,7 @@ footer ul li{
 	.tab_button:hover{
 	width:179px;
 	height:25px;
-	background:url('background/glow_tab.png_small'),url('background/tab.png_small') ;	
+	background:url('background/glow_tab_small.png'),url('background/tab_small.png');
+	background-position:center bottom;	
 	}	
 }
