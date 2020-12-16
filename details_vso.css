@@ -52,6 +52,21 @@ footer ul li{
 	display:inline-block;	
 }
 
+.tab_button{
+	color:rgb(60,232,254);
+	text-decoration:none;
+	display:inline-block;
+	width:300px;
+	height:41px;
+	background:url('background/tab.png') no-repeat center top
+}
+	
+.tab_button:hover{
+	width:300px;
+	height:41px;
+	color:white;
+	background:url('background/glow_tab.png') no-repeat center bottom,url('background/tab.png') no-repeat center top
+}
 
 .mainpage{
 	float:left;
