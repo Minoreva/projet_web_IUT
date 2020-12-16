@@ -51,8 +51,8 @@ h2{
 }
 /* je sais pas si c'est du javascript, mais c'était sur le W3C : https://www.w3schools.com/howto/howto_css_zoom_hover.asp*/
 .box img:hover {
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
   transform: scale(1.5); 
 }
 
@@ -166,6 +166,8 @@ footer ul li{
 
 form{
 	transform:scale(1.5);
+	-ms-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
 	text-align:center;
 	padding-bottom:50px;
 }
@@ -189,6 +191,8 @@ form label input{
 
 .mot_du_jour{
 	transform:scale(1.2);
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
 	text-align:center;
 	padding:20px;
 }
@@ -216,22 +220,36 @@ strike{
 	margin-right:5px;
 }
 
+
+/*Beaucoup de souffrances ci-dessous*/
 .login a{
+	/*
 	clear:left;
-	color:rgb(60,232,254);
-	padding:8px 0px 8px 4px;
 	float:left;
-	width:100px;
-	border:solid;
-	border-color:rgb(1,116,129);
-	display:block;
 	outline:0;
-	background:rgba(19,34,49,0.6);
+	plus necessaire à priori après modifs
+	*/	
+	padding:18px 2px 6px 6px;
+	text-align:center;
+
+	color:rgb(60,232,254);
+	text-decoration:none;
+	
+	height:35px;
+	width:120px;
+	border:1px solid transparent;
+    border-image: url(background/border.svg);
+	border-image-slice:2 fill;
+
 }
-/* pour corriger la première méthode
-.login a+a{
-	border-top:none;
-}*/
+
+.login a:hover{
+	color:white;
+    border-image: url(background/border3.svg);
+	border-image-slice:2 fill;
+}
+
+
 
 .tab_button{
 	color:rgb(60,232,254);
@@ -257,8 +275,8 @@ strike{
 	position:fixed;
 	top:-5%;
 	left:-2%;
-	-ms-transform: scale(0.5); /* IE 9 */
-	-webkit-transform: scale(0.5); /* Safari 3-8 */
+	-ms-transform: scale(0.5);
+	-webkit-transform: scale(0.5);
 	transform: scale(0.5); 
 }
 
@@ -267,8 +285,8 @@ strike{
 	position:absolute;
 	top:0;
 	left:-5%;
-	-ms-transform: scale(0.2); /* IE 9 */
-	-webkit-transform: scale(0.2); /* Safari 3-8 */
+	-ms-transform: scale(0.2);
+	-webkit-transform: scale(0.2);
 	transform: scale(0.2);
 
 	}

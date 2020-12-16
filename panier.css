@@ -192,16 +192,30 @@ footer ul li{
 
 
 .login a{
+	/*
 	clear:left;
-	color:rgb(60,232,254);
-	padding:8px 0px 8px 4px;
 	float:left;
-	width:100px;
-	border:solid;
-	border-color:rgb(1,116,129);
-	display:block;
 	outline:0;
-	background:rgba(19,34,49,0.6);
+	plus necessaire à priori après modifs
+	*/	
+	padding:18px 2px 6px 6px;
+	text-align:center;
+
+	color:rgb(60,232,254);
+	text-decoration:none;
+	
+	height:35px;
+	width:120px;
+	border:1px solid transparent;
+    border-image: url(background/border.svg);
+	border-image-slice:2 fill;
+
+}
+
+.login a:hover{
+	color:white;
+    border-image: url(background/border3.svg);
+	border-image-slice:2 fill;
 }
 /*
 .login a+a{
