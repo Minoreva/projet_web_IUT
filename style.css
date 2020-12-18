@@ -31,13 +31,7 @@ h2{
 }
 
 .ships {
-	
 	float:left;
-	border-top-style: solid;
-	border-bottom-style: solid;
-	border-color: rgb(122,246,251);
-	border-width: medium;
-
 }
 
 .box{
