@@ -9,10 +9,6 @@ background-repeat: no-repeat,repeat;
 background-size: cover;
 }
 
-h2{
-	text-align:center;
-}
-
 header ul{
 	display:block;
 	text-align:center;
@@ -34,6 +30,10 @@ h1:after{
 	content:" /";
 }
 
+h2{
+	text-align:center;
+}
+
 a{
 	color:orange;
 }
@@ -49,7 +49,7 @@ p{
 }
 
 
-.mainpage ul{
+main ul{
 	margin-left:2em;
 }
 
@@ -86,7 +86,7 @@ footer ul li{
 }
 
 
-.mainpage{
+main{
 	float:left;
 	border-top-style: solid;
 	border-bottom-style: solid;

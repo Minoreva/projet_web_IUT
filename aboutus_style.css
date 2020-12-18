@@ -48,11 +48,15 @@ h1:after{
 	content:" /";
 }
 
+h3{
+	padding-left: 1em;
+}
+
 p{
 	padding: 0 1em;
 }
 
-.mainpage ul{
+main ul{
 	margin-left:2em;
 }
 
@@ -83,7 +87,7 @@ footer ul li{
 }
 
 
-.mainpage{
+main{
 	float:left;
 	border-top-style: solid;
 	border-bottom-style: solid;

@@ -101,7 +101,7 @@ footer ul li{
 	display:inline-block;	
 }
 
-.mainpage{
+main{
 	float:left;
 	border-top-style: solid;
 	border-bottom-style: solid;
@@ -295,8 +295,8 @@ strike{
 		max-width:600px;
 	}
 	
-	/*Calvaire sur la page accueil à scale tout sur petit écran, à améliorer*/
-	.mainpage{
+	/*Calvaire sur la page accueil à scale tout sur petit écran, à améliorer mais comment ?*/
+	main{
 		max-width:600px;
 	}
 	.promo img{
