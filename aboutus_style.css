@@ -116,7 +116,7 @@ main{
 	*/	
 	padding:18px 2px 6px 6px;
 	text-align:center;
-
+	overflow:hidden;
 	color:rgb(60,232,254);
 	text-decoration:none;
 	
