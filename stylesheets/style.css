@@ -211,7 +211,8 @@ form label input{
 }
 */
 
-strike{
+.strike{
+	text-decoration:line-through;
 	margin-right:5px;
 }
 
